@@ -1,2 +1,1 @@
-The End
-is near
+HeyThereStranger
