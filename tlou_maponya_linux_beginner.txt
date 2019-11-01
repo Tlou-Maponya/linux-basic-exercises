@@ -1,0 +1,61 @@
+BEGINNER LINUX CHALLENGES
+
+Task 1: Basic Task
+
+1. $ ls  -   lists the content of the directory
+2. $ pwd -   Print working Directy: /home/umuzi-tlou/Documents
+3. $ mkdir workspace
+4. $ ls  -    test   umuzi   workspace
+5. $ cd workspace
+   $ touch README.md
+6. $ cp README.md CHANGELOG.md
+   $ ls
+        CHANGELOG.md  README.md
+    
+Task 2 : Absolute and Relative Paths
+
+1. $ touch exercise.md
+2. $ mv exercise.md tmp/
+3. $ rm /tmp/exercise.md  
+
+Task 3 : cat commands
+
+1. $ touch umuzi.md recruits.md cohort.md
+3. $ cat umuzi.md recruits.md cohort.md
+4. $ cat umuzi.md recruits.md cohort.md > summary.md
+   $ cat summary.md
+5. $ echo "is near" >> summary.md
+
+Task 4 : The locate command
+
+1. $ locate umuzi.md
+2. $ locate umuzi.md > search_result.md
+
+Task 5 The locate command cont..
+
+1. :~/Documents$ touch pad.md
+2. $ cd ../Desktop/
+3. $ cp ../Documents/pad.md pad_copy.md
+4. $ locate updatedb
+5. $ cd -
+6. $ locate pad_copy.md
+
+Task 6 Find commands
+
+1. $ locate *.pdf
+2. $ locate *.pdf | tee mkdir my_choic
+3. $ cat my_choic
+
+Task 7 Text editor
+
+1. $ nano my_bio.md
+2. $ Ctrl+x 
+   $ Y (Yes) to Save + Rename
+3. $ mkdir myfiles
+   $ mv my_bio.md myfiles/
+
+
+
+
+
+
